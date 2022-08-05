@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.github.bsantanna.iban_validator_model.grpc";
+
+package iban_validator_model;
+
+service JSONClassificationService {
+
+  rpc getPrediction(InputFeatures) returns (OutputLabel) {}
+
+}
+
+message InputFeatures {
+  string iban = 1;
+}
+
+message OutputLabel {
+  string json = 1;
+}

@@ -1,0 +1,106 @@
+Alpha|Country|Size|BBAN Format|IBAN Fields
+AD|Andorra|24|8n,12c|ADkk bbbb ssss cccc cccc cccc
+AE|United Arab Emirates|23|3n,16n|AEkk bbb c cccc cccc cccc ccc
+AL|Albania|28|8n,16c|ALkk bbb s sss x cccc cccc cccc cccc
+AO|Angola|25|21n|AOkk bbbb nnnn nnnn nnnn nnnn n
+AT|Austria|20|16n|ATkk bbbb b ccc cccc cccc
+AZ|Azerbaijan|28|4c,20n|AZkk bbbb cccc cccc cccc cccc cccc
+BA|Bosnia and Herzegovina|20|16n|BA39 bbb s ss cc cccc cc xx
+BE|Belgium|16|12n|BEkk bbb c cccc cc xx
+BF|Burkina Faso|28|2c,22n|BFkk ccnn nnnn nnnn nnnn nnnn nnnn
+BG|Bulgaria|22|4a,6n,8c|BGkk bbbb ssss tt cc cccc cc
+BH|Bahrain|22|4a,14c|BHkk bbbb cccc cccc cccc cc
+BI|Burundi|16|12n|BIkk nnnn nnnn nnnn
+BJ|Benin|28|2c,22n|BJkk ccnn nnnn nnnn nnnn nnnn nnnn
+BR|Brazil|29|23n,1a,1c|BRkk bbbb bbbb ssss s ccc cccc ccc t n
+BY|Belarus|28|4c,4n,16c|BYkk bbbb aaaa cccc cccc cccc cccc
+CF|Central African Republic|27|23n|CFkk nnnn nnnn nnnn nnnn nnnn nnn
+CG|Congo,Republic of the|27|23n|CGkk nnnn nnnn nnnn nnnn nnnn nnn
+CH|Switzerland|21|5n,12c|CHkk bbbb b ccc cccc cccc c
+CI|Côte d'Ivoire|28|1a,23n|CIkk annn nnnn nnnn nnnn nnnn nnnn
+CM|Cameroon|27|23n|CMkk nnnn nnnn nnnn nnnn nnnn nnn
+CR|Costa Rica|22|18n|CRkk 0 bbb cccc cccc cccc cc
+CV|Cabo Verde|25|21n|CVkk nnnn nnnn nnnn nnnn nnnn n
+CY|Cyprus|28|8n,16c|CYkk bbb s ssss cccc cccc cccc cccc
+CZ|Czech Republic|24|20n|CZkk bbbb ssss ss cc cccc cccc
+DE|Germany|22|18n|DEkk bbbb bbbb cccc cccc cc
+DJ|Djibouti|27|23n|DJkk nnnn nnnn nnnn nnnn nnnn nnn
+DK|Denmark|18|14n|DKkk bbbb cccc cccc cc
+DO|Dominican Republic|28|4a,20n|DOkk bbbb cccc cccc cccc cccc cccc
+DZ|Algeria|26|22n|DZkk nnnn nnnn nnnn nnnn nnnn nn
+EE|Estonia|20|16n|EEkk bb ss cccc cccc ccc x
+EG|Egypt|29|25n|EGkk bbbb ssss cccc cccc cccc cccc c
+ES|Spain|24|20n|ESkk bbbb ssss xx cc cccc cccc
+FI|Finland|18|14n|FIkk bbbb bb cc cccc c x
+FO|Faroe Islands|18|14n|FOkk bbbb cccc cccc c x
+FR|France|27|10n,11c,2n|FRkk bbbb b sss ss cc cccc cccc c xx
+GA|Gabon|27|23n|GAkk nnnn nnnn nnnn nnnn nnnn nnn
+GB|United Kingdom|22|4a,14n|GBkk bbbb ssss ss cc cccc cc
+GE|Georgia|22|2c,16n|GEkk bb cc cccc cccc cccc cc
+GI|Gibraltar|23|4a,15c|GIkk bbbb cccc cccc cccc ccc
+GL|Greenland|18|14n|GLkk bbbb cccc cccc cc
+GQ|Equatorial Guinea|27|23n|GQkk nnnn nnnn nnnn nnnn nnnn nnn
+GR|Greece|27|7n,16c|GRkk bbb s sss c cccc cccc cccc ccc
+GT|Guatemala|28|4c,20c|GTkk bbbb mm tt cccc cccc cccc cccc
+GW|Guinea-Bissau|25|2c,19n|GWkk ccnn nnnn nnnn nnnn nnnn n
+HN|Honduras|28|4a,20n|HNkk aaaa nnnn nnnn nnnn nnnn nnnn
+HR|Croatia|21|17n|HRkk bbbb bbb c cccc cccc c
+HU|Hungary|28|24n|HUkk bbb s sss x cccc cccc cccc ccc x
+IE|Ireland|22|4c,14n|IEkk bbbb ssss ss cc cccc cc
+IL|Israel|23|19n|ILkk bbb s ss cc cccc cccc ccc
+IM|Isle of Man|22|4c,14n|IMkk cccc cccc cccc cccc cc
+IQ|Iraq|23|4a,15n|IQkk bbbb sss c cccc cccc ccc
+IR|Iran|26|4c,18n|IRkk 0bb0 nnnn nnnn nnnn nnnn nn
+IS|Iceland|26|22n|ISkk bb ss tt cc cccc iiii iiii ii
+IT|Italy|27|1a,10n,12c|ITkk x bbb bb ss sss c cccc cccc ccc
+JO|Jordan|30|4a,22n|JOkk bbbb ssss cccc cccc cccc cccc cc
+KM|Comoros|27|23n|KMkk nnnn nnnn nnnn nnnn nnnn nnn
+KW|Kuwait|30|4a,22c|KWkk bbbb cccc cccc cccc cccc cccc cc
+KZ|Kazakhstan|20|3n,13c|KZkk bbb c cccc cccc cccc
+LB|Lebanon|28|4n,20c|LBkk bbbb cccc cccc cccc cccc cccc
+LC|Saint Lucia|32|4a,24c|LCkk bbbb cccc cccc cccc cccc cccc cccc
+LI|Liechtenstein|21|5n,12c|LIkk bbbb b ccc cccc cccc c
+LT|Lithuania|20|16n|LTkk bbbb b ccc cccc cccc
+LU|Luxembourg|20|3n,13c|LUkk bbb c cccc cccc cccc
+LV|Latvia|21|4a,13c|LVkk bbbb cccc cccc cccc c
+LY|Libya|25|21n|LYkk bbb s ss cc cccc cccc cccc c
+MA|Morocco|28|24n|MAkk nnnn nnnn nnnn nnnn nnnn nnnn
+MC|Monaco|27|10n,11c,2n|MCkk bbbb b sss ss cc cccc cccc c xx
+MD|Moldova|24|2c,18c|MDkk bb cc cccc cccc cccc cccc
+ME|Montenegro|22|18n|ME25 bbb c cccc cccc cccc xx
+MG|Madagascar|27|23n|MGkk nnnn nnnn nnnn nnnn nnnn nnn
+MK|North Macedonia|19|3n,10c,2n|MK07 bbb c cccc cccc c xx
+ML|Mali|28|2c,22n|MLkk annn nnnn nnnn nnnn nnnn nnnn
+MR|Mauritania|27|23n|MR13 bbbb b sss ss cc cccc cccc c xx
+MT|Malta|31|4a,5n,18c|MTkk bbbb ssss s ccc cccc cccc cccc ccc
+MU|Mauritius|30|4a,19n,3a|MUkk bbbb bb ss cccc cccc cccc 000m mm
+MZ|Mozambique|25|21n|MZkk nnnn nnnn nnnn nnnn nnnn n
+NE|Niger|28|2a,22n|NEkk aann nnnn nnnn nnnn nnnn nnnn
+NI|Nicaragua|32|4a,24n|NIkk aaaa nnnn nnnn nnnn nnnn nnnn nnnn
+NL|Netherlands|18|4a,10n|NLkk bbbb cccc cccc cc
+NO|Norway|15|11n|NOkk bbbb cccc cc x
+PK|Pakistan|24|4c,16n|PKkk bbbb cccc cccc cccc cccc
+PL|Poland|28|24n|PLkk bbb s sss x cccc cccc cccc cccc
+PS|Palestinian territories|29|4c,21n|PSkk bbbb cccc cccc cccc cccc cccc c
+PT|Portugal|25|21n|PT50 bbbb ssss cccc cccc ccc x x
+QA|Qatar|29|4a,21c|QAkk bbbb cccc cccc cccc cccc cccc c
+RO|Romania|24|4a,16c|ROkk bbbb cccc cccc cccc cccc
+RS|Serbia|22|18n|RS35 bbb c cccc cccc cccc xx
+SA|Saudi Arabia|24|2n,18c|SAkk bb cc cccc cccc cccc cccc
+SC|Seychelles|31|4a,20n,3a|SCkk bbbb bb ss nnnn nnnn nnnn nnnn mmm
+SE|Sweden|24|20n|SEkk bbb c cccc cccc cccc cccc
+SI|Slovenia|19|15n|SI56 bb ss s ccc cccc c xx
+SK|Slovakia|24|20n|SKkk bbbb cccc cc cc cccc cccc
+SM|San Marino|27|1a,10n,12c|SMkk x bbb bb ss sss c cccc cccc ccc
+SN|Senegal|28|1a,23n|SNkk annn nnnn nnnn nnnn nnnn nnnn
+ST|Sao Tome and Principe|25|21n|STkk bbbb ssss cccc cccc cccc c
+SV|El Salvador|28|4a,20n|SVkk bbbb cccc cccc cccc cccc cccc
+TD|Chad|27|23n|TDkk nnnn nnnn nnnn nnnn nnnn nnn
+TG|Togo|28|2a,22n|TGkk aann nnnn nnnn nnnn nnnn nnnn
+TL|East Timor|23|19n|TL38 bbb c cccc cccc cccc c xx
+TN|Tunisia|24|20n|TN59 bb ss s ccc cccc cccc cc xx
+TR|Turkey|26|5n,17c|TRkk bbbb b 0 cc cccc cccc cccc cc
+UA|Ukraine|29|6n,19c|UAkk bbbb bb cc cccc cccc cccc cccc c
+VA|Vatican City|22|3n,15n|VAkk bbb c cccc cccc cccc cc
+VG|Virgin Islands,British|24|4c,16n|VGkk bbbb cccc cccc cccc cccc
+XK|Kosovo|20|4n,10n,2n|XKkk bbbb cccc cccc cccc

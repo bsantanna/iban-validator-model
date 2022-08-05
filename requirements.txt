@@ -1,0 +1,6 @@
+matplotlib
+pandas
+sklearn
+tensorflow
+grpcio
+protobuf==3.20.*
