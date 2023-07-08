@@ -1,0 +1,106 @@
+Size;JSON;Code
+24;{"country":"Andorra","bban_regex":"[0-9]{8}[A-Za-z0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"AD","size":24};AD
+23;{"country":"United Arab Emirates","bban_regex":"[0-9]{3}[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"AE","size":23};AE
+28;{"country":"Albania","bban_regex":"[0-9]{8}[A-Za-z0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"AL","size":28};AL
+25;{"country":"Angola","bban_regex":"[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"AO","size":25};AO
+20;{"country":"Austria","bban_regex":"[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"AT","size":20};AT
+28;{"country":"Azerbaijan","bban_regex":"[A-Za-z0-9]{4}[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"AZ","size":28};AZ
+20;{"country":"Bosnia and Herzegovina","bban_regex":"[0-9]{16}","check_digit_regex":"39","code":"BA","size":20};BA
+16;{"country":"Belgium","bban_regex":"[0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"BE","size":16};BE
+28;{"country":"Burkina Faso","bban_regex":"[A-Za-z0-9]{2}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"BF","size":28};BF
+22;{"country":"Bulgaria","bban_regex":"[A-Z]{4}[0-9]{6}[A-Za-z0-9]{8}","check_digit_regex":"[0-9][0-9]","code":"BG","size":22};BG
+22;{"country":"Bahrain","bban_regex":"[A-Z]{4}[A-Za-z0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"BH","size":22};BH
+16;{"country":"Burundi","bban_regex":"[0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"BI","size":16};BI
+28;{"country":"Benin","bban_regex":"[A-Za-z0-9]{2}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"BJ","size":28};BJ
+29;{"country":"Brazil","bban_regex":"[0-9]{23}[A-Z]{1}[A-Za-z0-9]{1}","check_digit_regex":"[0-9][0-9]","code":"BR","size":29};BR
+28;{"country":"Belarus","bban_regex":"[A-Za-z0-9]{4}[0-9]{4}[A-Za-z0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"BY","size":28};BY
+27;{"country":"Central African Republic","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"CF","size":27};CF
+27;{"country":"Congo,Republic of the","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"CG","size":27};CG
+21;{"country":"Switzerland","bban_regex":"[0-9]{5}[A-Za-z0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"CH","size":21};CH
+28;'{"country":"Côte d''Ivoire","bban_regex":"[A-Z]{1}[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"CI","size":28}';CI
+27;{"country":"Cameroon","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"CM","size":27};CM
+22;{"country":"Costa Rica","bban_regex":"[0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"CR","size":22};CR
+25;{"country":"Cabo Verde","bban_regex":"[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"CV","size":25};CV
+28;{"country":"Cyprus","bban_regex":"[0-9]{8}[A-Za-z0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"CY","size":28};CY
+24;{"country":"Czech Republic","bban_regex":"[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"CZ","size":24};CZ
+22;{"country":"Germany","bban_regex":"[0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"DE","size":22};DE
+27;{"country":"Djibouti","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"DJ","size":27};DJ
+18;{"country":"Denmark","bban_regex":"[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"DK","size":18};DK
+28;{"country":"Dominican Republic","bban_regex":"[A-Z]{4}[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"DO","size":28};DO
+26;{"country":"Algeria","bban_regex":"[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"DZ","size":26};DZ
+20;{"country":"Estonia","bban_regex":"[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"EE","size":20};EE
+29;{"country":"Egypt","bban_regex":"[0-9]{25}","check_digit_regex":"[0-9][0-9]","code":"EG","size":29};EG
+24;{"country":"Spain","bban_regex":"[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"ES","size":24};ES
+18;{"country":"Finland","bban_regex":"[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"FI","size":18};FI
+18;{"country":"Faroe Islands","bban_regex":"[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"FO","size":18};FO
+27;{"country":"France","bban_regex":"[0-9]{10}[A-Za-z0-9]{11}[0-9]{2}","check_digit_regex":"[0-9][0-9]","code":"FR","size":27};FR
+27;{"country":"Gabon","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"GA","size":27};GA
+22;{"country":"United Kingdom","bban_regex":"[A-Z]{4}[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"GB","size":22};GB
+22;{"country":"Georgia","bban_regex":"[A-Za-z0-9]{2}[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"GE","size":22};GE
+23;{"country":"Gibraltar","bban_regex":"[A-Z]{4}[A-Za-z0-9]{15}","check_digit_regex":"[0-9][0-9]","code":"GI","size":23};GI
+18;{"country":"Greenland","bban_regex":"[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"GL","size":18};GL
+27;{"country":"Equatorial Guinea","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"GQ","size":27};GQ
+27;{"country":"Greece","bban_regex":"[0-9]{7}[A-Za-z0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"GR","size":27};GR
+28;{"country":"Guatemala","bban_regex":"[A-Za-z0-9]{4}[A-Za-z0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"GT","size":28};GT
+25;{"country":"Guinea-Bissau","bban_regex":"[A-Za-z0-9]{2}[0-9]{19}","check_digit_regex":"[0-9][0-9]","code":"GW","size":25};GW
+28;{"country":"Honduras","bban_regex":"[A-Z]{4}[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"HN","size":28};HN
+21;{"country":"Croatia","bban_regex":"[0-9]{17}","check_digit_regex":"[0-9][0-9]","code":"HR","size":21};HR
+28;{"country":"Hungary","bban_regex":"[0-9]{24}","check_digit_regex":"[0-9][0-9]","code":"HU","size":28};HU
+22;{"country":"Ireland","bban_regex":"[A-Za-z0-9]{4}[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"IE","size":22};IE
+23;{"country":"Israel","bban_regex":"[0-9]{19}","check_digit_regex":"[0-9][0-9]","code":"IL","size":23};IL
+22;{"country":"Isle of Man","bban_regex":"[A-Za-z0-9]{4}[0-9]{14}","check_digit_regex":"[0-9][0-9]","code":"IM","size":22};IM
+23;{"country":"Iraq","bban_regex":"[A-Z]{4}[0-9]{15}","check_digit_regex":"[0-9][0-9]","code":"IQ","size":23};IQ
+26;{"country":"Iran","bban_regex":"[A-Za-z0-9]{4}[0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"IR","size":26};IR
+26;{"country":"Iceland","bban_regex":"[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"IS","size":26};IS
+27;{"country":"Italy","bban_regex":"[A-Z]{1}[0-9]{10}[A-Za-z0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"IT","size":27};IT
+30;{"country":"Jordan","bban_regex":"[A-Z]{4}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"JO","size":30};JO
+27;{"country":"Comoros","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"KM","size":27};KM
+30;{"country":"Kuwait","bban_regex":"[A-Z]{4}[A-Za-z0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"KW","size":30};KW
+20;{"country":"Kazakhstan","bban_regex":"[0-9]{3}[A-Za-z0-9]{13}","check_digit_regex":"[0-9][0-9]","code":"KZ","size":20};KZ
+28;{"country":"Lebanon","bban_regex":"[0-9]{4}[A-Za-z0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"LB","size":28};LB
+32;{"country":"Saint Lucia","bban_regex":"[A-Z]{4}[A-Za-z0-9]{24}","check_digit_regex":"[0-9][0-9]","code":"LC","size":32};LC
+21;{"country":"Liechtenstein","bban_regex":"[0-9]{5}[A-Za-z0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"LI","size":21};LI
+20;{"country":"Lithuania","bban_regex":"[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"LT","size":20};LT
+20;{"country":"Luxembourg","bban_regex":"[0-9]{3}[A-Za-z0-9]{13}","check_digit_regex":"[0-9][0-9]","code":"LU","size":20};LU
+21;{"country":"Latvia","bban_regex":"[A-Z]{4}[A-Za-z0-9]{13}","check_digit_regex":"[0-9][0-9]","code":"LV","size":21};LV
+25;{"country":"Libya","bban_regex":"[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"LY","size":25};LY
+28;{"country":"Morocco","bban_regex":"[0-9]{24}","check_digit_regex":"[0-9][0-9]","code":"MA","size":28};MA
+27;{"country":"Monaco","bban_regex":"[0-9]{10}[A-Za-z0-9]{11}[0-9]{2}","check_digit_regex":"[0-9][0-9]","code":"MC","size":27};MC
+24;{"country":"Moldova","bban_regex":"[A-Za-z0-9]{2}[A-Za-z0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"MD","size":24};MD
+22;{"country":"Montenegro","bban_regex":"[0-9]{18}","check_digit_regex":"25","code":"ME","size":22};ME
+27;{"country":"Madagascar","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"MG","size":27};MG
+19;{"country":"North Macedonia","bban_regex":"[0-9]{3}[A-Za-z0-9]{10}[0-9]{2}","check_digit_regex":"07","code":"MK","size":19};MK
+28;{"country":"Mali","bban_regex":"[A-Za-z0-9]{2}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"ML","size":28};ML
+27;{"country":"Mauritania","bban_regex":"[0-9]{23}","check_digit_regex":"13","code":"MR","size":27};MR
+31;{"country":"Malta","bban_regex":"[A-Z]{4}[0-9]{5}[A-Za-z0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"MT","size":31};MT
+30;{"country":"Mauritius","bban_regex":"[A-Z]{4}[0-9]{19}[A-Z]{3}","check_digit_regex":"[0-9][0-9]","code":"MU","size":30};MU
+25;{"country":"Mozambique","bban_regex":"[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"MZ","size":25};MZ
+28;{"country":"Niger","bban_regex":"[A-Z]{2}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"NE","size":28};NE
+32;{"country":"Nicaragua","bban_regex":"[A-Z]{4}[0-9]{24}","check_digit_regex":"[0-9][0-9]","code":"NI","size":32};NI
+18;{"country":"Netherlands","bban_regex":"[A-Z]{4}[0-9]{10}","check_digit_regex":"[0-9][0-9]","code":"NL","size":18};NL
+15;{"country":"Norway","bban_regex":"[0-9]{11}","check_digit_regex":"[0-9][0-9]","code":"NO","size":15};NO
+24;{"country":"Pakistan","bban_regex":"[A-Za-z0-9]{4}[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"PK","size":24};PK
+28;{"country":"Poland","bban_regex":"[0-9]{24}","check_digit_regex":"[0-9][0-9]","code":"PL","size":28};PL
+29;{"country":"Palestinian territories","bban_regex":"[A-Za-z0-9]{4}[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"PS","size":29};PS
+25;{"country":"Portugal","bban_regex":"[0-9]{21}","check_digit_regex":"50","code":"PT","size":25};PT
+29;{"country":"Qatar","bban_regex":"[A-Z]{4}[A-Za-z0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"QA","size":29};QA
+24;{"country":"Romania","bban_regex":"[A-Z]{4}[A-Za-z0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"RO","size":24};RO
+22;{"country":"Serbia","bban_regex":"[0-9]{18}","check_digit_regex":"35","code":"RS","size":22};RS
+24;{"country":"Saudi Arabia","bban_regex":"[0-9]{2}[A-Za-z0-9]{18}","check_digit_regex":"[0-9][0-9]","code":"SA","size":24};SA
+31;{"country":"Seychelles","bban_regex":"[A-Z]{4}[0-9]{20}[A-Z]{3}","check_digit_regex":"[0-9][0-9]","code":"SC","size":31};SC
+24;{"country":"Sweden","bban_regex":"[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"SE","size":24};SE
+19;{"country":"Slovenia","bban_regex":"[0-9]{15}","check_digit_regex":"56","code":"SI","size":19};SI
+24;{"country":"Slovakia","bban_regex":"[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"SK","size":24};SK
+27;{"country":"San Marino","bban_regex":"[A-Z]{1}[0-9]{10}[A-Za-z0-9]{12}","check_digit_regex":"[0-9][0-9]","code":"SM","size":27};SM
+28;{"country":"Senegal","bban_regex":"[A-Z]{1}[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"SN","size":28};SN
+25;{"country":"Sao Tome and Principe","bban_regex":"[0-9]{21}","check_digit_regex":"[0-9][0-9]","code":"ST","size":25};ST
+28;{"country":"El Salvador","bban_regex":"[A-Z]{4}[0-9]{20}","check_digit_regex":"[0-9][0-9]","code":"SV","size":28};SV
+27;{"country":"Chad","bban_regex":"[0-9]{23}","check_digit_regex":"[0-9][0-9]","code":"TD","size":27};TD
+28;{"country":"Togo","bban_regex":"[A-Z]{2}[0-9]{22}","check_digit_regex":"[0-9][0-9]","code":"TG","size":28};TG
+23;{"country":"East Timor","bban_regex":"[0-9]{19}","check_digit_regex":"38","code":"TL","size":23};TL
+24;{"country":"Tunisia","bban_regex":"[0-9]{20}","check_digit_regex":"59","code":"TN","size":24};TN
+26;{"country":"Turkey","bban_regex":"[0-9]{5}[A-Za-z0-9]{17}","check_digit_regex":"[0-9][0-9]","code":"TR","size":26};TR
+29;{"country":"Ukraine","bban_regex":"[0-9]{6}[A-Za-z0-9]{19}","check_digit_regex":"[0-9][0-9]","code":"UA","size":29};UA
+22;{"country":"Vatican City","bban_regex":"[0-9]{3}[0-9]{15}","check_digit_regex":"[0-9][0-9]","code":"VA","size":22};VA
+24;{"country":"Virgin Islands,British","bban_regex":"[A-Za-z0-9]{4}[0-9]{16}","check_digit_regex":"[0-9][0-9]","code":"VG","size":24};VG
+20;{"country":"Kosovo","bban_regex":"[0-9]{4}[0-9]{10}[0-9]{2}","check_digit_regex":"[0-9][0-9]","code":"XK","size":20};XK
