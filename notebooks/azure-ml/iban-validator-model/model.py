@@ -83,7 +83,6 @@ class JSONClassificationModel:
             ws = run.experiment.workspace
 
         mlflow.set_tracking_uri(ws.get_mlflow_tracking_uri())
-        mlflow.set_experiment("iban-validator-model")
         with mlflow.start_run():
             mlflow.tensorflow.autolog()
             train_model.fit(self.dataset, epochs=num_epochs, verbose=1)
