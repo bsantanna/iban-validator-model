@@ -13,9 +13,23 @@
 # limitations under the License.
 
 import tensorflow as tf
+from azureml.core import Workspace
+from azureml.core.run import Run, _OfflineRun
 
 
 class Util:
+
+    @staticmethod
+    def load_data():
+        run = Run.get_context()
+        ws = None
+        if type(run) == _OfflineRun:
+            ws = Workspace.from_config()
+        else:
+            ws = run.experiment.workspace
+
+        dataset = ws.datasets['processed_ibans_tabular']
+        return dataset.to_pandas_dataframe()
 
     @staticmethod
     def encode_numerical_feature(feature, name, dataset):

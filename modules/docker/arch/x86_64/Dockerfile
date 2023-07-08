@@ -1,4 +1,4 @@
-# Copyright 2022 Bruno César Brito Sant'Anna <mail@bsantanna.me>
+# Copyright 2023 Bruno César Brito Sant'Anna <mail@bsantanna.me>
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

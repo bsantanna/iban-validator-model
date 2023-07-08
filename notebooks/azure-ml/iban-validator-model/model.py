@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
 
-import matplotlib.pyplot as plt
-import pandas as pd
+import mlflow
 import tensorflow as tf
+from azureml.core import Workspace
+from azureml.core.run import Run, _OfflineRun
 
 from util import Util
 
@@ -65,6 +65,8 @@ class JSONClassificationModel:
         model = tf.keras.Model(inputs, output_layer)
         model.compile("adam", "categorical_crossentropy", metrics=[
             "accuracy",
+            tf.keras.metrics.Precision(),
+            tf.keras.metrics.Recall()
         ])
 
         # plot model
@@ -73,40 +75,15 @@ class JSONClassificationModel:
         return model
 
     def train(self, train_model, num_epochs):
-        training_history = train_model.fit(self.dataset, epochs=num_epochs, verbose=1)
+        run = Run.get_context()
+        ws = None
+        if type(run) == _OfflineRun:
+            ws = Workspace.from_config()
+        else:
+            ws = run.experiment.workspace
 
-        train_acc = training_history.history["accuracy"]
-        train_loss = training_history.history["loss"]
-
-        epochs_range = range(num_epochs)
-        plt.figure(figsize=(14, 8))
-        plt.plot(epochs_range, train_acc, label="Train Accuracy")
-        plt.plot(epochs_range, train_loss, label="Train Loss")
-        plt.title("Accuracy and Loss")
-        plt.legend()
-        plt.savefig("data/json_classification_model/training_result.png")
-
-
-def main():
-    # hyper parameters
-    batch_size = 32
-    num_epochs = 500
-    output_dir = "data/json_classification_model"
-
-    if not os.path.exists(output_dir):
-        os.mkdir(output_dir)
-
-    # load structured data
-    country_validation_json = pd.read_csv("data/country_validation_json.csv", sep=";")
-
-    # initialize model with structured data
-    json_classification_model = JSONClassificationModel(dataframe=country_validation_json)
-    keras_model = json_classification_model.build(batch_size)
-
-    # train model with given number of epochs and save result
-    json_classification_model.train(keras_model, num_epochs)
-    keras_model.save(output_dir)
-
-
-if __name__ == "__main__":
-    main()
+        mlflow.set_tracking_uri(ws.get_mlflow_tracking_uri())
+        mlflow.set_experiment("iban-validator-model")
+        with mlflow.start_run():
+            mlflow.tensorflow.autolog()
+            train_model.fit(self.dataset, epochs=num_epochs, verbose=1)
