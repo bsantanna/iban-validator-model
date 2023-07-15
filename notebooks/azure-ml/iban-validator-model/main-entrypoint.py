@@ -24,9 +24,17 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--batch-size', type=int,
-                        dest='batch_size', help='Batch size hyper-parameter')
+                        dest='batch_size', help='Batch sampling size')
     parser.add_argument('--num-epochs', type=int,
-                        dest='num_epochs', help='Number of epochs hyper-parameter')
+                        dest='num_epochs', help='Number of training epochs')
+    parser.add_argument('--input-activation', type=str,
+                        dest='input_activation', help='Input layer activation function')
+    parser.add_argument('--output-activation', type=str,
+                        dest='output_activation', help='Output layer activation function')
+    parser.add_argument('--optimizer', type=str,
+                        dest='optimizer', help='Optimizer backpropagation function')
+    parser.add_argument('--loss', type=str,
+                        dest='loss', help='Error loss backpropagation function')
     args = parser.parse_args()
 
     # load structured data
@@ -34,7 +42,13 @@ def main():
 
     # initialize model with structured data
     json_classification_model = JSONClassificationModel(dataframe=country_validation_json)
-    keras_model = json_classification_model.build(args.batch_size)
+
+    keras_model = json_classification_model.build(
+        batch_size=args.batch_size,
+        input_activation=args.input_activation,
+        output_activation=args.output_activation,
+        optimizer=args.optimizer,
+        loss=args.loss)
 
     # train model with given number of epochs and save result
     json_classification_model.train(keras_model, args.num_epochs)

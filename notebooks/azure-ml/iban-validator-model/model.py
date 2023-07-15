@@ -33,7 +33,13 @@ class JSONClassificationModel:
         dataset = tf.data.Dataset.from_tensor_slices((dict(features), labels))
         self.dataset = dataset.shuffle(buffer_size=len(dataframe))
 
-    def build(self, batch_size):
+    def build(
+        self,
+        batch_size=32,
+        input_activation="relu",
+        output_activation="softmax",
+        optimizer="adam",
+        loss="categorical_crossentropy"):
         # update dataset with batch size
         self.dataset = self.dataset.batch(batch_size)
 
@@ -58,19 +64,19 @@ class JSONClassificationModel:
         ])
 
         # create input and output layers
-        input_layer = tf.keras.layers.Dense(batch_size, activation="relu")(features_encoded)
-        output_layer = tf.keras.layers.Dense(len(self.dataframe), activation="softmax")(input_layer)
+        input_layer = tf.keras.layers.Dense(batch_size, activation=input_activation)(features_encoded)
+        output_layer = tf.keras.layers.Dense(len(self.dataframe), activation=output_activation)(input_layer)
 
         # create and compile the model
         model = tf.keras.Model(inputs, output_layer)
-        model.compile("adam", "categorical_crossentropy", metrics=[
-            "accuracy",
-            tf.keras.metrics.Precision(),
-            tf.keras.metrics.Recall()
-        ])
-
-        # plot model
-        # tf.keras.utils.plot_model(model, show_shapes=True, show_dtype=True, rankdir="LR")
+        model.compile(
+            optimizer=optimizer,
+            loss=loss,
+            metrics=[
+                "accuracy",
+                tf.keras.metrics.Precision(),
+                tf.keras.metrics.Recall()
+            ])
 
         return model
 
