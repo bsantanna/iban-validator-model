@@ -4,4 +4,5 @@ tensorflow
 grpcio
 protobuf==3.20.*
 azureml-core
+azureml-train-core
 mlflow
