@@ -301,8 +301,6 @@ As a closing note, the following resources served as references for this project
  - [https://keras.io/examples/structured_data/structured_data_classification_from_scratch/](https://keras.io/examples/structured_data/structured_data_classification_from_scratch/)
  - [https://keras.io/guides/preprocessing_layers/](https://keras.io/guides/preprocessing_layers/)
 
-For reporting errors or questions please contact me by [e-mail](mail@bsantanna.me)
-
 Copyright 2022 [Bruno César Brito Sant’Anna](https://www.linkedin.com/in/brnsantanna/)
 
 
@@ -310,6 +308,11 @@ Copyright 2022 [Bruno César Brito Sant’Anna](https://www.linkedin.com/in/brns
 ## Changelog
 
 Change log is organized in chronological reverse order.
+
+### 2023-07
+
+- Used model as study case for [DP-100 exam](https://learn.microsoft.com/en-us/certifications/exams/dp-100/)
+  - [Azure ML Notebooks](notebooks/azure-ml) 
 
 ### 2022-09
 
